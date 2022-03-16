@@ -1,5 +1,6 @@
 {
   "name": "which-eevee-are-you",
+  "homepage": "https://baibrooks.com/which-eevee-are-you",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

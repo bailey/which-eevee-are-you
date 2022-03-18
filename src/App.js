@@ -2,8 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import ProfilePhoto from "./logo.svg";
 import BackgroundImage from "./logo.svg";
-import FirstResultImage from "./logo.svg";
-import SecondResultImage from "./logo.svg";
+import EspeonImage from "./images/espeon.png";
+import GlaceonImage from "./images/glaceon.png";
+import JolteonImage from "./images/jolteon.png";
+import LeafeonImage from "./images/leafeon.png";
+import SylveonImage from "./images/sylveon.png";
+import UmbreonImage from "./images/umbreon.png";
+import VaporeanImage from "./images/vaporean.png";
 import ResponseImage from "./logo.svg";
 import { BuzzFeedQuiz } from "react-buzzfeed-quiz";
 import "./styles.css";
@@ -219,39 +224,43 @@ function App() {
       results={[
         {
           title: "jolteon",
-          description: "congrats",
-          resultImageSrc: FirstResultImage,
-          imageAttribution: "Jolteon is the Electric-type Lightning Pokémon and one of Eevee's final evolution forms, and can only be obtained through use of a Thunder Stone. Jolteon is strong against Vaporeon, due to the fact that Electric-type Pokémon abilities are super effective against Water-type Pokémon. It is known that Jolteon's highest stat is Speed.",
+          resultImageSrc: JolteonImage,
+          description: "Jolteon is the Electric-type Lightning Pokémon and one of Eevee's final evolution forms, and can only be obtained through use of a Thunder Stone. Jolteon is strong against Vaporeon, due to the fact that Electric-type Pokémon abilities are super effective against Water-type Pokémon. It is known that Jolteon's highest stat is Speed.",
           resultID: 0,
         },
         {
           title: "vaporean",
           description: "Vaporeon is the Water-Type Pokémon and one of Eevee's final evolution forms, and can only be obtained through use of a Water Stone. It is known as the Bubble Jet Pokémon. When the player evolves his/her Eevee into a Vaporeon, the player can teach Vaporeon the HM Surf. Vaporeon is strong against Flareon since Water-type Pokémon attacks are super effective against Fire-type Pokémon. However, Vaporeon is weak against Jolteon and Leafeon since Water-type Pokémon is weak to Grass and Electric-types. It is known that Vaporeon's highest stat is its HP.",
-          resultImageSrc: SecondResultImage,
+          resultImageSrc: VaporeanImage,
           resultID: 1,
         },
         {
           title: "umbreon",
+          resultImageSrc: UmbreonImage,
           description: "Umbreon is the Dark-type Eeveelution. It is known as the Moonlight Pokémon. Umbreon takes advantage of the friendship and day/night features, as Eevee will only evolve into Umbreon by leveling up with high friendship at night. Umbreon is strong against Espeon because Dark-type attacks are super effective against Psychic Pokémon, however, it is weak against Sylveon due to Dark-types weakness to Fairy-types. Umbreon is so in touch with the moon that Umbreon's rings glow at nighttime. Umbreon's highest stat is Special Defense.",
           resultID: 2,
         },
         {
           title: "espeon",
+          resultImageSrc: EspeonImage,
           description: "Espeon is the Psychic-Morning Sun evolution of Eevee, it is of the Psychic-type, along with Umbreon takes advantage of the Day/Night and friendship features, Eevee will only evolve into Espeon with high friendship in the daytime. It is known that its highest stat is Special Attack. Espeon is weak against Umbreon since Dark-type abilities are super effective against Psychic Pokémon. It is known that Espeon's highest stat is Special Attack.",
           resultID: 3,
         },
         {
           title: "glaceon",
+          resultImageSrc: GlaceonImage,
           description: "Glaceon is the Ice-type Fresh Snow Eeveelution. This Pokémon is an Ice-type and an Eevee will evolve into Glaceon if the player character touches an icy rock, then levels the Eevee up next to the icy rock up to Generation VIII. In Generation VIII Eevee evolves into Glaceon with an Ice Stone. Glaceon is strong against Leafeon due to Grass-types beings weak to Ice-types but is weak against Flareon due to Ice-types weakness to Fire-types. Its highest stat is Special Attack, similar to Espeon.",
           resultID: 4,
         },
         {
           title: "leafeon",
+          resultImageSrc: LeafeonImage,
           description: "Leafeon is the Grass-type Verdant Eeveelution. An Eevee will only evolve into Leafeon if the player character touches a mossy rock, then levels up the Eevee in one of the sections of grass directly next to it up to Generation VIII. In Generation VIII Eevee evolves into Leafeon with a Leaf Stone. Leafeon is strong against Vaporeon, due to Grass-types being strong against Water-types, but it's weak against both Flareon and Glaceon due to Grass being weak against both Fire and Ice-type Pokémon. Its highest stat is Defense.",
           resultID: 5,
         },
         {
           title: "sylveon",
+          resultImageSrc: SylveonImage,
           description: "Sylveon is a Fairy-type Intertwining Eeveelution new to Generation VI. The way to obtain this new addition to the Eevee family is to use the bonding application in Pokémon X & Y called Pokémon-Amie and Pokémon Sun and Moon called Pokémon Refresh. After getting at least two levels of affection, you level your Eevee up while knowing a Fairy-type move, and it will evolve shortly after. Sylveon is strong against Umbreon due to Dark-types Pokémon being weak to Fairy-types. Sylveon's highest stats is Special Defense, similar to Umbreon.",
           resultID: 6,
         },

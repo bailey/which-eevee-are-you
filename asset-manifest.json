@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/which-eevee-are-you/static/css/main.32d142d3.css",
+    "main.js": "/which-eevee-are-you/static/js/main.b8f88fdf.js",
+    "static/js/787.0304bdc3.chunk.js": "/which-eevee-are-you/static/js/787.0304bdc3.chunk.js",
+    "static/media/vaporean.png": "/which-eevee-are-you/static/media/vaporean.533ecbe1762b41e724fa.png",
+    "static/media/jolteon.png": "/which-eevee-are-you/static/media/jolteon.f340a4b08392dbbf2f6c.png",
+    "static/media/leafeon.png": "/which-eevee-are-you/static/media/leafeon.430ff779afecef10b6c3.png",
+    "static/media/sylveon.png": "/which-eevee-are-you/static/media/sylveon.e1ebdb9cc4729e9a9507.png",
+    "static/media/espeon.png": "/which-eevee-are-you/static/media/espeon.3780006f987e37f69bb7.png",
+    "static/media/umbreon.png": "/which-eevee-are-you/static/media/umbreon.c59d5372ddc79d1ff072.png",
+    "static/media/glaceon.png": "/which-eevee-are-you/static/media/glaceon.6a69d493210120738ff2.png",
+    "static/media/logo.svg": "/which-eevee-are-you/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/which-eevee-are-you/index.html",
+    "main.32d142d3.css.map": "/which-eevee-are-you/static/css/main.32d142d3.css.map",
+    "main.b8f88fdf.js.map": "/which-eevee-are-you/static/js/main.b8f88fdf.js.map",
+    "787.0304bdc3.chunk.js.map": "/which-eevee-are-you/static/js/787.0304bdc3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32d142d3.css",
+    "static/js/main.b8f88fdf.js"
+  ]
+}
